@@ -24,7 +24,7 @@
 				</ul>
 			</div>
 		</nav>
-		<div style = "background-color: #ba160c; class="container">
+		<div style = "background-color: #ba160c"  class="container">
 			</br>
 			<h3 style = "text-align: center;color: white;">The Education Hub</h3>
 			</br>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 		</div>
-		<div style = "background-color: #ba160c; class="row">
+		<div style = "background-color: #ba160c" class="row">
 			<div class="col s4">
 				<!-- Promo Content 1 goes here -->
 			</div>
@@ -124,7 +124,7 @@
 					<div class = "modal-content">
 						<h4>Sign Up</h4>
 						<div class="row">
-							<form class="col s12">
+							<form class="col s12" action="edugyaan_re1.php" method="post">
 							  <div class="row">
 								<div class="input-field col s6">
 								  <input name="First_Name" id="first_name" type="text" class="validate">
@@ -150,7 +150,6 @@
 								  <input name="Username_New" id="email" type="email" class="validate">
 								  <label for="email">Email</label>
 								</div>
-								<div class="row">
 									<div class="input-field col s12">
 								  		<input name="Birth_Date" id="email" type="date" class="datepicker">
 								  		<label for="email">Birth Date</label>
@@ -166,14 +165,13 @@
     							</select>
     							<label>Security Question</label>
   							 </div>
-  							 <div class="input-field col s12">
+  							 <div class="input-field col s">
 								  <input name="Security_Answer" id="first_name" type="text" class="validate">
 								  <label for="first_name">Security Answer</label>
 							 </div>
 							 <div class="row">
 									<div class="input-field col s12">
-										<input name="Signup" id="password" type="submit" class="btn waves-effect waves-light">
-										<label for="password">Sign Up</label>
+										<input name="Signup" type="submit" class="btn waves-effect waves-light">
 									</div>
 							</div>
 							</form>
